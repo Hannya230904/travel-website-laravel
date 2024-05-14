@@ -25,8 +25,8 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>Name</th>
-                                        <th>Email</th>
+                                        <th>Nombre</th>
+                                        <th>Correo Electronico</th>
                                     </tr>
                                 </thead>
                                 <tbody>

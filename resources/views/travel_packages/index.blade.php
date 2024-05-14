@@ -10,8 +10,8 @@
 
               <div class="islands__container container">
                 <div class="islands__data">
-                  <h2 class="islands__subtitle">Explore</h2>
-                  <h1 class="islands__title">Package Travel</h1>
+                  <h2 class="islands__subtitle">Explora</h2>
+                  <h1 class="islands__title">Paquetes de Viaje</h1>
                 </div>
               </div>
             </section>
@@ -22,10 +22,9 @@
       <!--==================== POPULAR ====================-->
       <section class="section" id="popular">
         <div class="container">
-          <span class="section__subtitle" style="text-align: center">All</span>
+          <span class="section__subtitle" style="text-align: center">Te ofrecemos</span>
           <h2 class="section__title" style="text-align: center">
-            Package Travel
-          </h2>
+            LOS MEJORES PRECIOS 
 
           <div class="popular__all">
             @foreach($travel_packages as $travel_package)
