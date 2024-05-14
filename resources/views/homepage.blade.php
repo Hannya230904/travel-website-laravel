@@ -19,15 +19,15 @@
                             style="z-index: 99; position: relative"
                         >
                             <h2 class="islands__subtitle">
-                                Explore
+                                Aventurate a
                             </h2>
                             <h1 class="islands__title">
-                                Wonderfull World
+                                Explorar El Mundo
                             </h1>
                             <p class="islands__description">
-                                It's the perfect time travel and
-                                enjoy the <br />
-                                beauty of the world.
+                                Es el momento perfecto para viajar y
+                                disfrutar de <br />
+                                la belleza del mundo.
                             </p>
                         </div>
                     </div>
@@ -44,16 +44,22 @@
 >
     <div class="logos__container container grid">
         <div class="logos__img">
-            <img src="{{ asset('frontend/assets/img/tripadvisor.png') }}" alt="" />
+            <a href="https://www.tripadvisor.com.mx/"><img src="{{ asset('frontend/assets/img/tripadvisor.png') }}" alt="" /></a>
         </div>
         <div class="logos__img">
-            <img src="{{ asset('frontend/assets/img/airbnb.png') }}" alt="" />
+            <a href="https://www.airbnb.mx/?c=.pi0.pk968488319_51803035407&gclsrc=aw.ds&&c=.pi0.pk968488319_51803035407&localized_ghost=true&gad_
+            source=1&gclid=CjwKCAjwl4yyBhAgEiwADSEjeIj2pdq9BIVGctX1Y2e3XvKkDL2Te_Z8ey_Ze-1hauIOQKB-HYZykBoCHl4QAvD_BwE">
+            <img src="{{ asset('frontend/assets/img/airbnb.png') }}" alt="airbnb" /></a>
         </div>
         <div class="logos__img">
-            <img src="{{ asset('frontend/assets/img/booking.png') }}" alt="" />
+            <a href="https://www.booking.com/index.es-mx.html?label=gen173nr-1BCAEoggI46AdIM1gEaKABiAEBmAFSuAEXyAEM2AEB6AEBiAIBqAIDuALE246y
+            BsACAdICJDE4YjM5ZWNiLTA5ODMtNDBkMS05NjViLTdkYTIxNjk3MWFhMdgCBeACAQ&sid=8a5aab7d28e82c57057f530675de2140&keep_landing=1&sb_price_
+            type=total&"><img src="{{ asset('frontend/assets/img/booking.png') }}" alt="booking" /></a>
         </div>
         <div class="logos__img">
-            <img src="{{ asset('frontend/assets/img/airasia.png') }}" alt="" />
+            <a href="https://www.airpaz.com/en/airlines/AK-AirAsia?a=21271355467&b=159323818302&c=582552839447&d=c&gad_source=1&gclid=
+            CjwKCAjwl4yyBhAgEiwADSEjeFzCbWBkdjGzF0yz2VC-HUVFFBcZqDqyeD2ppQTqSQnSBX2lqCuHQBoCVQoQAvD_BwE&l=20721&n=g&p=&t=dsa-1465706623
+            091&utm_medium=cpc&utm_source=gads"><img src="{{ asset('frontend/assets/img/airasia.png') }}" alt="airasia" /></a>
         </div>
     </div>
 </section>
