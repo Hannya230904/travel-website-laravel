@@ -123,7 +123,7 @@
             <div class="value__data">
                 <span class="section__subtitle">¿Por qué escogernos?</span>
                 <h2 class="section__title">
-                    Una experiencia complemente garantizada
+                    UNA EXPERIENCIA GARANTIZADA
                 </h2>
                 <p class="value__description">
                     Siempre estamos listos para servirte,
@@ -180,7 +180,7 @@
                             class="bx bxs-bar-chart-square value-accordion-icon"
                         ></i>
                         <h3 class="value__accordion-title">
-                            Best plan for your time
+                            El mejor plan para tu tiempo
                         </h3>
                         <div class="value__accordion-arrow">
                             <i class="bx bxs-down-arrow"></i>
@@ -189,7 +189,9 @@
 
                     <div class="value__accordion-content">
                         <p class="value__accordion-description">
-                            Provides you with time properly.
+                            Su tiempo es valioso para GOTRAVEL,
+                            Agendamos tu viaje para que puedas viajar
+                            en el momento que desees.
                         </p>
                     </div>
                 </div>
@@ -199,7 +201,7 @@
                             class="bx bxs-check-square value-accordion-icon"
                         ></i>
                         <h3 class="value__accordion-title">
-                            Security guarantee
+                            Garantía de seguridad
                         </h3>
                         <div class="value__accordion-arrow">
                             <i class="bx bxs-down-arrow"></i>
@@ -208,8 +210,8 @@
 
                     <div class="value__accordion-content">
                         <p class="value__accordion-description">
-                            We make sure that our services have a
-                            good of security
+                            Nos aseguramos de que nuestros servicios
+                            tengan un buen nivel de seguridad.
                         </p>
                     </div>
                 </div>
@@ -222,10 +224,10 @@
 <section class="blog section" id="blog">
     <div class="blog__container container">
         <span class="section__subtitle" style="text-align: center"
-            >Our Blog</span
+            >Nuestro Blog</span
         >
         <h2 class="section__title" style="text-align: center">
-            The Best Trip For You
+            LOS MEJORES TIPS DE VIAJE PARA TI
         </h2>
 
         <div class="blog__content grid">
