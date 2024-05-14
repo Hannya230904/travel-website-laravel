@@ -34,13 +34,13 @@
                         <li class="nav__item">
                             <a href="{{ route('homepage') }}" class="nav__link {{ request()->is('/') ? ' active-link' : '' }}">
                                 <i class="bx bx-home-alt"></i>
-                                <span>Home</span>
+                                <span>Inicio</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="{{ route('travel_package.index') }}" class="nav__link {{ request()->is('travel-packages') || request()->is('travel-packages/*')  ? ' active-link' : '' }}">
                                 <i class="bx bx-building-house"></i>
-                                <span>Package Travel</span>
+                                <span>Paquete de Viajes</span>
                             </a>
                         </li>
                         <li class="nav__item">
@@ -52,7 +52,7 @@
                         <li class="nav__item">
                             <a href="{{ route('contact') }}" class="nav__link {{ request()->is('contact') ? ' active-link' : '' }}">
                                 <i class="bx bx-phone"></i>
-                                <span>Contact</span>
+                                <span>Contacto</span>
                             </a>
                         </li>
                     </ul>
@@ -61,7 +61,7 @@
                 <!-- theme -->
                 <i class="bx bx-moon change-theme" id="theme-button"></i>
 
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=088111444&text=I want to booking" class="button nav__button">Booking Now</a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=088111444&text=I want to booking" class="button nav__button">Reserva ahora</a>
             </nav>
         </header>
 
@@ -78,14 +78,14 @@
                         G<i class="bx bxs-map"></i> TRAVEL
                     </a>
                     <p class="footer__description">
-                        Our vision is to help people find the <br />
-                        best places to travel with high security
+                        Nuestra visión es conectar a personas de todo el mundo <br />
+                        con experiencias únicas y significativas.
                     </p>
                 </div>
 
                 <div class="footer__content">
                     <div>
-                        <h3 class="footer__title">About</h3>
+                        <h3 class="footer__title">Servicios</h3>
 
                         <ul class="footer__links">
                             <li>
