@@ -68,10 +68,10 @@
 <section class="section" id="popular">
     <div class="container">
         <span class="section__subtitle" style="text-align: center"
-            >Best Choice</span
+            >Te presentamos la mejor opción</span
         >
         <h2 class="section__title" style="text-align: center">
-            Popular Places
+            Nuestros paquetes de viajes
         </h2>
 
         <div class="popular__container swiper">
@@ -121,14 +121,14 @@
 
         <div class="value__content">
             <div class="value__data">
-                <span class="section__subtitle">Why Choose Us</span>
+                <span class="section__subtitle">¿Por qué escogernos?</span>
                 <h2 class="section__title">
-                    Experience That We Promise To You
+                    Una experiencia complemente garantizada
                 </h2>
                 <p class="value__description">
-                    We always ready to serve by providing the best
-                    service for you. We make a good choices to
-                    travel around the world.
+                    Siempre estamos listos para servirte,
+                    brindándote el mejor servicio.
+                    Tomamos buenas decisiones para viajar por el mundo.
                 </p>
             </div>
 
@@ -139,7 +139,7 @@
                             class="bx bxs-shield-x value-accordion-icon"
                         ></i>
                         <h3 class="value__accordion-title">
-                            Best places in the world
+                            Los mejores lugares del mundo
                         </h3>
                         <div class="value__accordion-arrow">
                             <i class="bx bxs-down-arrow"></i>
@@ -148,9 +148,8 @@
 
                     <div class="value__accordion-content">
                         <p class="value__accordion-description">
-                            We provides the best places around the
-                            world and have a good quality of
-                            service.
+                            Ofrecemos los mejores lugares del mundo y
+                            contamos con una buena calidad de servicio.
                         </p>
                     </div>
                 </div>
@@ -160,7 +159,7 @@
                             class="bx bxs-x-square value-accordion-icon"
                         ></i>
                         <h3 class="value__accordion-title">
-                            Affordable price for you
+                            Precio asequible para ti
                         </h3>
                         <div class="value__accordion-arrow">
                             <i class="bx bxs-down-arrow"></i>
@@ -169,8 +168,9 @@
 
                     <div class="value__accordion-content">
                         <p class="value__accordion-description">
-                            We try to make your budget fit with the
-                            destination that you want to go.
+                            Intentamos que tu presupuesto se ajuste al
+                            destino al que quieres ir para que nada
+                            impida que puedas vivir esa experiencia.
                         </p>
                     </div>
                 </div>
