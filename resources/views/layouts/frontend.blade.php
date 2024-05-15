@@ -89,13 +89,13 @@
 
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">About Us</a>
+                                <a href="#" class="footer__link">Vuelos</a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">Features </a>
+                                <a href="#" class="footer__link">Hoteles </a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link">News & Blog</a>
+                                <a href="#" class="footer__link">Actividades</a>
                             </li>
                         </ul>
                     </div>
@@ -153,12 +153,8 @@
 
             <div class="footer__info container">
                 <span class="footer__copy">
-                    &#169; ypcode. All rigths reserved
+                    &#169; GOTRAVEL. Todos los derechos reservados
                 </span>
-                <div class="footer__privacy">
-                    <a href="#">Terms & Agreements</a>
-                    <a href="#">Privacy Policy</a>
-                </div>
             </div>
         </footer>
 
