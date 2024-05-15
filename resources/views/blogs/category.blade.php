@@ -14,7 +14,7 @@
 
               <div class="islands__container container">
                 <div class="islands__data">
-                  <h2 class="islands__subtitle">category</h2>
+                  <h2 class="islands__subtitle">Categoría</h2>
                   <h1 class="islands__title">{{ $category->name }}</h1>
                 </div>
               </div>
@@ -27,10 +27,10 @@
       <section class="blog section" id="blog">
         <div class="blog__container container">
           <span class="section__subtitle" style="text-align: center"
-            >Story in {{ $category->name }}</span
+            >Los mejores tips de{{ $category->name }}</span
           >
           <h2 class="section__title" style="text-align: center">
-            Find The Best Travel Story
+            Ahorra con nosotros
           </h2>
 
           <div class="blog__content grid">

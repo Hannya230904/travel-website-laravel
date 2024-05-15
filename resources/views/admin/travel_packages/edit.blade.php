@@ -6,7 +6,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12 d-flex justify-content-between">
-                    <h1 class="m-0">{{ __('Form Edit') }}</h1>
+                    <h1 class="m-0">{{ __('Formulario de Edición') }}</h1>
                     <a href="{{ route('admin.travel_packages.index') }}" class="btn btn-primary"> <i class="fa fa-arrow-left"></i> </a>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -78,7 +78,14 @@
                                 </div>
                             </div>
 
-                            
+                            <button type="submit" class="btn btn-success">Guardar</button>
+                        </form>
+                    </div>
+
+                    <div class="card p-3">
+                        <form method="post" action="{{ route('admin.travel_packages.update', [$travel_package]) }}">
+                            @csrf
+                            @method('put')
                             <div class="form-group row border-bottom pb-4">
                                 <label for="type" class="col-sm-2 col-form-label">Categoría</label>
                                 <div class="col-sm-10">

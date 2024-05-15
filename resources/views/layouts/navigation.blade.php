@@ -15,7 +15,7 @@
                 <a href="{{ route('admin.dashboard') }}" class="nav-link">
                     <i class="nav-icon fas fa-th"></i>
                     <p>
-                        {{ __('Dashboard') }}
+                        {{ __('Inicio') }}
                     </p>
                 </a>
             </li>
@@ -24,7 +24,7 @@
                 <a href="{{ route('admin.users.index') }}" class="nav-link">
                     <i class="nav-icon fas fa-users"></i>
                     <p>
-                        {{ __('Users') }}
+                        {{ __('Usuarios') }}
                     </p>
                 </a>
             </li>
@@ -32,7 +32,7 @@
                 <a href="{{ route('admin.bookings.index') }}" class="nav-link">
                     <i class="nav-icon fas fa-book"></i>
                     <p>
-                        {{ __('Booking') }}
+                        {{ __('Reservas') }}
                     </p>
                 </a>
             </li>
@@ -41,7 +41,7 @@
                 <a href="{{ route('admin.travel_packages.index') }}" class="nav-link">
                     <i class="nav-icon fa fa-hotel"></i>
                     <p>
-                        {{ __('Travel Package') }}
+                        {{ __('Paquete de viajes') }}
                     </p>
                 </a>
             </li>
@@ -58,13 +58,13 @@
                     <li class="nav-item">
                         <a href="{{ route('admin.categories.index') }}" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>Category</p>
+                            <p>Categoría</p>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('admin.blogs.index') }}" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>Add Blog</p>
+                            <p>Agregar Blog</p>
                         </a>
                     </li>
                 </ul>

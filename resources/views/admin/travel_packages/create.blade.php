@@ -6,7 +6,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12 d-flex justify-content-between">
-                    <h1 class="m-0">{{ __('Form Create') }}</h1>
+                    <h1 class="m-0">{{ __('Formulario de creación') }}</h1>
                     <a href="{{ route('admin.travel_packages.index') }}" class="btn btn-primary"> <i class="fa fa-arrow-left"></i> </a>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -21,32 +21,32 @@
                 <div class="col-lg-12">
                     <div class="card p-3">
                         <form method="post" action="{{ route('admin.travel_packages.store') }}">
-                            @csrf 
+                            @csrf
                             <div class="form-group row border-bottom pb-4">
-                                <label for="type" class="col-sm-2 col-form-label">Type</label>
+                                <label for="type" class="col-sm-2 col-form-label">Tipo</label>
                                 <div class="col-sm-10">
-                                <input type="text" class="form-control" name="type" value="{{ old('type') }}" id="type" placeholder="example: 4D5N">
+                                <input type="text" class="form-control" name="type" value="{{ old('type') }}" id="type" placeholder="Ejemplo: 4D5N">
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">
-                                <label for="Location" class="col-sm-2 col-form-label">Location</label>
+                                <label for="Location" class="col-sm-2 col-form-label">Locación</label>
                                 <div class="col-sm-10">
-                                <input text="text" class="form-control" id="Location" name="location" value="{{ old('location') }}" placeholder="example: Bali, Indonesia">
+                                <input text="text" class="form-control" id="Location" name="location" value="{{ old('location') }}" placeholder="Ejemplo: Bali, Indonesia">
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">
-                                <label for="price" class="col-sm-2 col-form-label">Price</label>
+                                <label for="price" class="col-sm-2 col-form-label">Precio</label>
                                 <div class="col-sm-10">
-                                <input text="number" class="form-control" id="price" name="price" value="{{ old('price') }}" placeholder="example: 300">
+                                <input text="number" class="form-control" id="price" name="price" value="{{ old('price') }}" placeholder="Ejemplo: 300">
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">
-                                <label for="description" class="col-sm-2 col-form-label">Description</label>
+                                <label for="description" class="col-sm-2 col-form-label">Descripción</label>
                                 <div class="col-sm-10">
-                                    <textarea class="form-control" name="description" name="type" id="description" cols="30" rows="7" placeholder="Description text...">{{ old('description') }}</textarea>
+                                    <textarea class="form-control" name="description" name="type" id="description" cols="30" rows="7" placeholder="Descripción del texto...">{{ old('description') }}</textarea>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-success">Save</button>
+                            <button type="submit" class="btn btn-success">Guardar</button>
                         </form>
                     </div>
                 </div>

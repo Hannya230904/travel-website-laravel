@@ -6,7 +6,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12 d-flex justify-content-between">
-                    <h1 class="m-0">{{ __('Form Create') }}</h1>
+                    <h1 class="m-0">{{ __('Formulario Blog') }}</h1>
                     <a href="{{ route('admin.blogs.index') }}" class="btn btn-primary"> <i class="fa fa-arrow-left"></i> </a>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -21,15 +21,15 @@
                 <div class="col-lg-12">
                     <div class="card p-3">
                         <form method="post" action="{{ route('admin.blogs.store') }}" enctype="multipart/form-data">
-                            @csrf 
+                            @csrf
                             <div class="form-group row border-bottom pb-4">
-                                <label for="title" class="col-sm-2 col-form-label">Title</label>
+                                <label for="title" class="col-sm-2 col-form-label">Titulo</label>
                                 <div class="col-sm-10">
-                                <input type="text" class="form-control" name="title" value="{{ old('title') }}" id="title" placeholder="example: 5 tips travel">
+                                <input type="text" class="form-control" name="title" value="{{ old('title') }}" id="title" placeholder="Ejemplo: 5 tips Viajeros">
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">
-                                <label for="category_id" class="col-sm-2 col-form-label">Category</label>
+                                <label for="category_id" class="col-sm-2 col-form-label">Categoría</label>
                                 <div class="col-sm-10">
                                     <select class="form-control" name="category_id" id="category_id">
                                         @foreach($categories as $category)
@@ -39,24 +39,24 @@
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">
-                                <label for="image" class="col-sm-2 col-form-label">Image</label>
+                                <label for="image" class="col-sm-2 col-form-label">Imagen</label>
                                 <div class="col-sm-10">
                                     <input type="file" name="image" class="form-control" id="image">
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">
-                                <label for="excerpt" class="col-sm-2 col-form-label">Excerpt</label>
+                                <label for="excerpt" class="col-sm-2 col-form-label">Resumen</label>
                                 <div class="col-sm-10">
                                     <textarea class="form-control" name="excerpt" id="excerpt" cols="30" rows="5">{{ old('excerpt') }}</textarea>
                                 </div>
                             </div>
                             <div class="form-group row border-bottom pb-4">
-                                <label for="description" class="col-sm-2 col-form-label">Description</label>
+                                <label for="description" class="col-sm-2 col-form-label">Descripción</label>
                                 <div class="col-sm-10">
                                     <textarea class="form-control" name="description" id="description" cols="30" rows="7">{{ old('description') }}</textarea>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-success">Save</button>
+                            <button type="submit" class="btn btn-success">Guardar</button>
                         </form>
                     </div>
                 </div>

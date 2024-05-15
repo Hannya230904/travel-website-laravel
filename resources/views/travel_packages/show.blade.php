@@ -11,7 +11,7 @@
 
               <div class="islands__container container">
                 <div class="islands__data">
-                  <h2 class="islands__subtitle">Explore</h2>
+                  <h2 class="islands__subtitle">Explora</h2>
                   <h1 class="islands__title">{{ $gallery->name }}</h1>
                 </div>
               </div>
@@ -41,23 +41,23 @@
             {!! $travel_package->description !!}
             </div>
             <div class="package-travel">
-              <h3>Booking Now</h3>
+              <h3>Reserva ahora</h3>
               <div class="card">
                 <form action="{{ route('booking.store') }}" method="post">
-                  @csrf 
+                  @csrf
                   <input type="hidden" name="travel_package_id" value="{{ $travel_package->id }}">
-                  <input type="text" name="name" placeholder="Your Name" />
-                  <input type="email" name="email" placeholder="Your Email" />
-                  <input type="number" name="number_phone" placeholder="Your Number" />
+                  <input type="text" name="name" placeholder="Tu Nombre" />
+                  <input type="email" name="email" placeholder="Email" />
+                  <input type="number" name="number_phone" placeholder="Telefono" />
                   <input
-                    placeholder="Pick Your Date"
+                    placeholder="Selecciona la fecha de tu viaje"
                     class="textbox-n"
                     type="text"
                     name="date"
                     onfocus="(this.type='date')"
                     id="date"
                   />
-                  <button type="submit" class="button button-booking">Send</button>
+                  <button type="submit" class="button button-booking">Enviar</button>
                 </form>
               </div>
             </div>
@@ -68,10 +68,10 @@
       <section class="section" id="popular">
         <div class="container">
           <span class="section__subtitle" style="text-align: center"
-            >Package Travel</span
+            >Paquete de Viaje</span
           >
           <h2 class="section__title" style="text-align: center">
-            The Best Tour For You
+            Los mejores Tours para ti
           </h2>
 
           <div class="popular__all">

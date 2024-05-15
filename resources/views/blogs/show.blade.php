@@ -34,7 +34,7 @@
               </div>
             </div>
             <div class="package-travel">
-              <h3>Favorite Places</h3>
+              <h3>Categorías de Blogs</h3>
               <ul>
                 @foreach($categories as $category)
                     <li>
@@ -42,7 +42,7 @@
                     </li>
                 @endforeach
               </ul>
-              <h3 style="margin-bottom: 1rem">Popular Trip</h3>
+              <h3 style="margin-bottom: 1rem">Paquetes de viaje</h3>
               @foreach($travel_packages as $travel_package)
                 <article class="popular__card" style="margin-bottom: 1rem">
                   <a href="{{ route('travel_package.show', $travel_package->slug) }}">
@@ -67,10 +67,10 @@
       <section class="blog" id="blog">
         <div class="blog__container container">
           <span class="section__subtitle" style="text-align: center"
-            >Related Blog</span
+            >Blogs relacionados</span
           >
           <h2 class="section__title" style="text-align: center">
-            Find The Best Places
+            Encuentra los mejores Tips
           </h2>
 
           <div class="blog__content grid">
