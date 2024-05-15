@@ -25,13 +25,13 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>No</th>
-                                        <th>Name</th>
+                                        <th>#</th>
+                                        <th>Nombre</th>
                                         <th>Email</th>
-                                        <th>Number Phone</th>
-                                        <th>Date</th>
-                                        <th>Travel Package</th>
-                                        <th>Action</th>
+                                        <th>Número</th>
+                                        <th>Fecha</th>
+                                        <th>Paquete de viaje</th>
+                                        <th>Acción</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -45,10 +45,10 @@
                                         <td>{{ $booking->travel_package->location }}</td>
                                         <td>
                                             <form onclick="return confirm('are you sure ?');" class="d-inline-block" action="{{ route('admin.bookings.destroy', [$booking]) }}" method="post">
-                                                @csrf 
+                                                @csrf
                                                 @method('delete')
                                                 <button class="btn btn-sm btn-danger"> <i class="fa fa-trash"></i> </button>
-                                            </form>                              
+                                            </form>
                                         </td>
                                     </tr>
                                 @endforeach

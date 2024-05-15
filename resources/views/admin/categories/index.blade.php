@@ -26,9 +26,9 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>No</th>
-                                        <th>Name</th>
-                                        <th>Action</th>
+                                        <th>#</th>
+                                        <th>Categoría</th>
+                                        <th>Acción</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -37,12 +37,12 @@
                                         <td>{{ $loop->iteration }}</td>
                                         <td>{{ $category->name }}</td>
                                         <td>
-                                            <a href="{{ route('admin.categories.edit', [$category]) }}" class="btn btn-sm btn-info"> <i class="fa fa-edit"></i> </a>              
+                                            <a href="{{ route('admin.categories.edit', [$category]) }}" class="btn btn-sm btn-info"> <i class="fa fa-edit"></i> </a>
                                             <form onclick="return confirm('are you sure ?');" class="d-inline-block" action="{{ route('admin.categories.destroy', [$category]) }}" method="post">
-                                                @csrf 
+                                                @csrf
                                                 @method('delete')
                                                 <button class="btn btn-sm btn-danger"> <i class="fa fa-trash"></i> </button>
-                                            </form>                              
+                                            </form>
                                         </td>
                                     </tr>
                                 @endforeach

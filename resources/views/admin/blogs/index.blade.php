@@ -26,12 +26,12 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>No</th>
-                                        <th>Title</th>
-                                        <th>Image</th>
-                                        <th>Excerpt</th>
-                                        <th>Category</th>
-                                        <th>Action</th>
+                                        <th>#</th>
+                                        <th>Titulo</th>
+                                        <th>Imagen</th>
+                                        <th>Contenido</th>
+                                        <th>Categoría</th>
+                                        <th>Acción</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -47,12 +47,12 @@
                                         <td>{{ $blog->excerpt }}</td>
                                         <td>{{ $blog->category->name }}</td>
                                         <td>
-                                            <a href="{{ route('admin.blogs.edit', [$blog]) }}" class="btn btn-sm btn-info"> <i class="fa fa-edit"></i> </a>              
+                                            <a href="{{ route('admin.blogs.edit', [$blog]) }}" class="btn btn-sm btn-info"> <i class="fa fa-edit"></i> </a>
                                             <form onclick="return confirm('are you sure ?');" class="d-inline-block" action="{{ route('admin.blogs.destroy', [$blog]) }}" method="post">
-                                                @csrf 
+                                                @csrf
                                                 @method('delete')
                                                 <button class="btn btn-sm btn-danger"> <i class="fa fa-trash"></i> </button>
-                                            </form>                              
+                                            </form>
                                         </td>
                                     </tr>
                                 @endforeach
