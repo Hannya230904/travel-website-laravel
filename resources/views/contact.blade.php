@@ -15,8 +15,8 @@
               <div class="bg__overlay">
                 <div class="islands__container container">
                   <div class="islands__data">
-                    <h2 class="islands__subtitle">Need Travel</h2>
-                    <h1 class="islands__title">Contact Us</h1>
+                    <h2 class="islands__subtitle">Estamos a tu servicio</h2>
+                    <h1 class="islands__title">Contactanos</h1>
                   </div>
                 </div>
               </div>
@@ -37,12 +37,12 @@
 
           <div class="contact__content">
             <div class="contact__data">
-              <span class="section__subtitle">Need Help</span>
-              <h2 class="section__title">Don't hesitate to contact us</h2>
+              <span class="section__subtitle">¿Necesitas ayuda?</span>
+              <h2 class="section__title">No dudes en contactarnos</h2>
               <p class="contact__description">
-                Is there a problem finding places for yout next trip? Need a
-                guide in first trip or need a consultation about traveling? just
-                contact us.
+                ¿Tiene algún problema para encontrar lugares para su próximo viaje?
+                ¿Necesita una guía en su primer viaje o necesita una consulta sobre
+                cómo viajar? solo contáctanos.
               </p>
             </div>
 
@@ -51,12 +51,12 @@
                 <div class="contact__card-info">
                   <i class="bx bxs-phone-call"></i>
                   <div>
-                    <h3 class="contact__card-title">Call</h3>
+                    <h3 class="contact__card-title">Marca</h3>
                     <p class="contact__card-description">022.321.165.19</p>
                   </div>
                 </div>
 
-                <button class="button contact__card-button">Call Now</button>
+                <button class="button contact__card-button">Llamar ahora</button>
               </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
@@ -67,31 +67,30 @@
                   </div>
                 </div>
 
-                <button class="button contact__card-button">Chat Now</button>
+                <button class="button contact__card-button">Escribe ahora</button>
               </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
                   <i class="bx bxs-video"></i>
                   <div>
-                    <h3 class="contact__card-title">Video Call</h3>
+                    <h3 class="contact__card-title">Video llamada</h3>
                     <p class="contact__card-description">022.321.165.19</p>
                   </div>
                 </div>
 
                 <button class="button contact__card-button">
-                  Video Call Now
-                </button>
+                  Llamar ahora
               </div>
               <div class="contact__card-box">
                 <div class="contact__card-info">
                   <i class="bx bxs-phone-call"></i>
                   <div>
-                    <h3 class="contact__card-title">Message</h3>
+                    <h3 class="contact__card-title">Mensaje de texto</h3>
                     <p class="contact__card-description">022.321.165.19</p>
                   </div>
                 </div>
 
-                <button class="button contact__card-button">Message Now</button>
+                <button class="button contact__card-button">Escribe ahora</button>
               </div>
             </div>
           </div>

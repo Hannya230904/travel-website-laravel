@@ -78,8 +78,8 @@
                         G<i class="bx bxs-map"></i> TRAVEL
                     </a>
                     <p class="footer__description">
-                        Nuestra visión es conectar a personas de todo el mundo <br />
-                        con experiencias únicas y significativas.
+                        Nuestra visión es conectar a personas de todo el <br />
+                        mundo con experiencias únicas y significativas.
                     </p>
                 </div>
 
@@ -100,28 +100,28 @@
                         </ul>
                     </div>
                     <div>
-                        <h3 class="footer__title">Company</h3>
+                        <h3 class="footer__title">Compañia</h3>
 
                         <ul class="footer__links">
                             <li>
                                 <a href="#" class="footer__link"
-                                    >How We Work?
+                                    >¿Como trabajamos?
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="footer__link">Capital </a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link"> Security</a>
+                                <a href="#" class="footer__link"> Seguridad</a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h3 class="footer__title">Support</h3>
+                        <h3 class="footer__title">Ayuda</h3>
 
                         <ul class="footer__links">
                             <li>
-                                <a href="#" class="footer__link">FAQs </a>
+                                <a href="#" class="footer__link">Preguntas Frecuentes </a>
                             </li>
                             <li>
                                 <a href="#" class="footer__link"
@@ -129,12 +129,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="footer__link"> Contact Us</a>
+                                <a href="#" class="footer__link"> Contactanos</a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h3 class="footer__title">Follow us</h3>
+                        <h3 class="footer__title">Siguenos en</h3>
 
                         <ul class="footer__social">
                             <a href="#" class="footer__social-link">
